@@ -53,7 +53,7 @@ class _ProfileViewState extends State<ProfileView> {
                     width: 42.sp,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(40),
-                      color: green.withOpacity(0.25)
+                      color: green.withValues(alpha: 0.25)
                     ),
                     child: Center(child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,

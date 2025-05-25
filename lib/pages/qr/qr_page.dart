@@ -36,7 +36,7 @@ class _QrViewState extends State<QrView> {
           const Spacer(),
           Container(
             height: 20.h,
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               color: brown,
               borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(35),
